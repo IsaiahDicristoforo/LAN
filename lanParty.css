@@ -1,0 +1,190 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    .TitleFormat {
+        border-radius: 10px;
+        background-color: rgba(255, 0, 0, 0.5);
+        color: white;
+        padding: 5px;
+        text-align: center;
+        border: 1px dotted red;
+        font-family: "Roboto Slab", "Comic Sans MS", sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+        width: 400px;
+        display: inherit;
+    }
+
+
+   
+}
+
+  .Home{
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: #555555 3px 3px 3px;
+    background-color: rgba(191, 191, 63, 0.3);
+    width: 100px;
+    height: 50px;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+      font-family: Verdana SansSerif;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+a.homeHover:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+html{
+    height: 100%;
+    overflow-x: scroll;
+
+}
+
+
+.TitleFormat{
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border: 1px dotted red;
+    font-family: "Roboto Slab", "Comic Sans MS", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+
+
+
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-image: url("HoneyCombBackgound.jpg");
+    background-blend-mode: multiply;
+
+}
+nav{
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 2000px;
+    font-family: Veranda, sans-serif;
+    padding-bottom: 20px;
+    align-content: center;
+    text-align: center;
+    padding-right: 90px;
+}
+
+
+/*.navStyler{
+    padding-right: 50px;
+    color: white;
+    text-align: center;
+    align: center;
+
+}
+
+ */
+nav a{
+    border: black solid 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 8px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-size: 20px;
+    background-color: grey;
+    padding: 20px;
+    float: inherit;
+    display: inline;
+
+}
+  img.hd:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    color:black;
+}
+
+ navAnimation{
+
+ }
+
+ a.navAnimation:hover{
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+      background-color: lightgrey;
+      color:black;
+  }
+a{
+    margin: 6px;
+}
+
+.parentDiv{
+    display: block;
+    width: 1200px;
+    height: 300px;
+    margin: 2em auto;
+}
+.mainInfo{
+    background-color: rgba(211, 211, 211, 0.7);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    border-radius: 7px;
+    border: 5px solid red;
+    width: 47%;
+    float: left;
+    height: 300px;
+    color: black;
+
+}
+.mainInfo2{
+    background-color: rgba(211, 211, 211, 0.7);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    border-radius: 7px;
+    border: 5px solid red;
+    width: 47%;
+    float: right;
+    height: 300px;
+}
+
+.smashTrophyStyle{
+    border: 2px black solid;
+    display:inline;
+
+}
+
+.smashTrophyStyle{
+
+    transform: scale(-20);
+    display: inline;
+    float: right;
+    margin-left: 20px;
+    padding-left: 20px;
+    display: inline;
+
+}
+
+
+
+
+
