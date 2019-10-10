@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .TitleFormat {
 
     border-radius: 10px;
@@ -14,7 +14,7 @@
     display: inherit;
 
   }
-}/* end screen: MAX-WIFTH: 600px; */
+}/* end screen: MAX-WIFTH: 600px; */ */
 
 .Home {
   margin-left: 10px;
@@ -39,7 +39,8 @@ a.homeHover:hover {
 }
 html {
   height: 100%;
-  overflow-x: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 .TitleFormat {
   border-radius: 10px;
@@ -57,7 +58,7 @@ html {
   margin: 0 auto;
 }
 body {
-  background-image: url("HoneyCombBackgound.jpg");
+  background-image: url("../images/website-background-honeycomb.jpg");
   background-blend-mode: multiply;
 }
 nav {
