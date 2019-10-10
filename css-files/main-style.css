@@ -76,38 +76,31 @@ body {
   background-blend-mode: multiply;
 }
 nav {
-  color: white;
-  font-size: 20px;
+  font-size: 1em;
   display: block;
-  margin: auto;
-  font-family: Veranda, sans-serif;
-  align-content: center;
+  margin: 0 auto;
+  font-family: Verdana, sans-serif;
   text-align: center;
 }
 nav a {
-  border: black solid 2px;
-  border-radius: 8px;
+  border: 2px solid black;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 8px;
-  color: whitesmoke;
-  letter-spacing: 1px;
+  color: white;
   font-size: 20px;
   background-color: grey;
   padding: 20px;
-  float: inherit;
-  display: inline;
 }
 img.hd:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
   color:black;
 }
-a.navAnimation:hover {
+a.nav-a:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
   background-color: lightgrey;
-  color:black;
 }
 a {
   margin: 6px;
@@ -118,24 +111,25 @@ a {
   height: 300px;
   margin: 2em auto;
 }
-.mainInfo {
+.info-div {
   background-color: rgba(211, 211, 211, 0.7);
   text-align: center;
   font-family: Verdana, sans-serif;
-  border-radius: 7px;
+  border-radius: 10px;
   border: 5px solid red;
-  width: 47%;
+  min-width: 42%;
+  max-width: 49%;
   float: left;
   height: 300px;
-  color: black;
 }
-.mainInfo2 {
+.home-social-div {
   background-color: rgba(211, 211, 211, 0.7);
   text-align: center;
   font-family: Verdana, sans-serif;
-  border-radius: 7px;
+  border-radius: 10px;
   border: 5px solid red;
-  width: 47%;
+  min-width: 42%;
+  max-width: 49%;
   float: right;
   height: 300px;
 }
