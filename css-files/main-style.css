@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 /* @media only screen and (max-width: 600px) {
   .TitleFormat {
 
@@ -14,33 +15,51 @@
     display: inherit;
 
   }
-}/* end screen: MAX-WIFTH: 600px; */ */
+}/* end screen: MAX-WIFTH: 600px; */
 
-.Home {
-  margin-left: 10px;
-  border-radius: 5px;
-  box-shadow: #555555 3px 3px 3px;
-  background-color: rgba(191, 191, 63, 0.3);
-  width: 100px;
-  height: 50px;
-  float: left;
-  font-size: 30px;
-  text-decoration: none;
-  font-family: Verdana SansSerif;
-  color: white;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+.home-button {
+ border-radius: 5px;
+ background-color: rgba(191, 191, 63, 0.3);
+ width: 100px;
+ height: 50px;
+ float: left;
+ font-size: 30px;
+ text-decoration: none;
+ font-family: Verdana SansSerif;
+ color: white;
+ display: flex;
+ text-align: center;
+ align-items: center;
+ padding: 5px;
+}
+.home-button:hover {
+  box-shadow: 0 0 3px 3px #555555;
+}
+.count-time {
+   padding-top: 9px;
+   padding-bottom:9px;
+   display:block;
+   background-color:black;
+   border-radius: 1px;
+   color: white;
+   font-weight: bold;
+   font-style: italic;
+}
+.h1Style {
+  padding:20px;
 }
 a.homeHover:hover {
   transition: all 0.2s ease-in-out;
   transform: scale(1.1);
-}
-html {
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 .TitleFormat {
   border-radius: 10px;
@@ -52,10 +71,6 @@ html {
   font-family: "Roboto Slab", "Comic Sans MS", sans-serif;
   font-size: 1.2em;
   font-weight: bold;
-}
-.wrapper {
-  width: 1500px;
-  margin: 0 auto;
 }
 body {
   background-image: url("../images/website-background-honeycomb.jpg");
