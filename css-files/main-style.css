@@ -2,11 +2,10 @@
 html {
   overflow-x: hidden;
   overflow-y: scroll;
-  height: 100%;
-  display: block;
 }
 #wrapper {
-  width: 80%;
+  width: 1000px;
+  min-height: 600px;
   margin: 0 auto;
   padding: 0;
 }
@@ -32,7 +31,7 @@ header h1, nav p {
 }
 .info-parent-div {
   min-height: 301px;
-  margin: 2em auto;
+  margin: 3em auto;
   display: block;
 }
 .info-div {
