@@ -90,6 +90,7 @@ nav {
   margin: 0 auto;
   font-family: Verdana, sans-serif;
   text-align: center;
+
 }
 nav a {
   border: 2px solid black;
@@ -117,11 +118,9 @@ a {
 }
 .image {
   max-width: 49%;
-  display: block;
-  min-width: 42;
+  min-width: 42%;
   float: right;
-  height: 640px;
-  width: 489px;
+  height: 100%;
 }
 .smashTrophyStyle {
   border: 2px black solid;
