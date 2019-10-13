@@ -100,6 +100,7 @@ nav a {
   font-size: 20px;
   background-color: grey;
   padding: 20px;
+  margin: 10px;display: inline-block;
 }
 img.hd:hover {
   transition: all 0.2s ease-in-out;
