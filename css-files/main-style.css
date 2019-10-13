@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 html {
+  background-image: url("../images/website-background-honeycomb.jpg");
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -17,10 +19,6 @@ header {
   border-radius: 10px;
   background-color: rgba(255, 0, 0, 0.5);
   border: 1px solid red;
-}
-body {
-  background-image: url("../images/website-background-honeycomb.jpg");
-  height: 100%;
 }
 header h1, nav p {
   text-align: center;
