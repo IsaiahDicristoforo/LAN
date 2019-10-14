@@ -92,6 +92,7 @@ nav {
   margin: 0 auto;
   font-family: Verdana, sans-serif;
   text-align: center;
+  clear: both;
 
 }
 nav a {
