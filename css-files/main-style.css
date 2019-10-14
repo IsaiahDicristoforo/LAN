@@ -4,7 +4,7 @@ html {
   overflow-y: scroll;
 }
 #wrapper {
-  width: 1000px;
+  width: 1100px;
   min-height: 600px;
   margin: 0 auto;
   padding: 0;
@@ -29,6 +29,8 @@ header h1, nav p {
   color: white;
   font-family: "Roboto Slab", sans-serif;
 }
+
+
 .info-parent-div {
   min-height: 301px;
   margin: 3em auto;
@@ -45,7 +47,7 @@ header h1, nav p {
   float: left;
   height: 300px;
 }
-.count-time {
+.count-time { // javascript
    padding-top: 9px;
    padding-bottom:9px;
    display:block;
