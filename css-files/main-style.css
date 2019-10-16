@@ -2,8 +2,7 @@
 
 html {
   background-image: url("../images/website-background-honeycomb.jpg");
-  overflow-x: hidden;
-  overflow-y: scroll;
+
 }
 #wrapper {
   width: 1100px;
